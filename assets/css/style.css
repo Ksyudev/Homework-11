@@ -1,84 +1,104 @@
 #car {
     position: absolute;
-    bottom: 1050px;
+    bottom: 1060px;
     left: 800px;
     transform: rotate(220deg);
     }
 @keyframes race {
     0% {
-        bottom: 1050px;
+        bottom: 1060px;
         left: 800px;
         transform: rotate(220deg);
     }
     5% {
-        bottom: 1030px;
-        left: 800px;
-        transform: rotate(250deg);
-    }
-    10% {
-        bottom: 1050px;
-        left: 800px;
-        transform: rotate(250deg);
-    }
-    15% {
-        bottom: 1050px;
-        left: 800px;
-        transform: rotate(220deg);
-    }
-    20% {
         bottom: 1080px;
         left: 800px;
         transform: rotate(180deg);
     }
-    25% {
+    15% {
         bottom: 1080px;
         left: 200px;
         transform: rotate(180deg);
     }
-    27% {
+    20% {
         bottom: 1080px;
         left: 100px;
-        transform: rotate(180deg);
+        transform: rotate(150deg);
     }
-    30% {
-        bottom: 1080px;
-        left: 60px;
-        transform: rotate(140deg);
-    }
-    
-    35% {
-        bottom: 1080px;
-        left: 60px;
-        transform: rotate(100deg);
-    }
-    37% {
+    25% {
         bottom: 1080px;
         left: 60px;
         transform: rotate(90deg);
     }
-    50% {
+    35% {
+        bottom: 480px;
+        left: 60px;
+        transform: rotate(90deg);
+    }
+    40% {
         bottom: 380px;
         left: 60px;
         transform: rotate(90deg);
     }
-    75% {
-        bottom: 340px;
-        left: 800px;  
+    45% {
+        bottom: 330px;
+        left: 60px;
+        transform: rotate(60deg);
+    }
+    50% {
+        bottom: 330px;
+        left: 60px;
         transform: rotate(0deg);
     }
+    60% {
+        bottom: 330px;
+        left: 660px;
+        transform: rotate(0deg);
+    }
+    65% {
+        bottom: 330px;
+        left: 760px;
+        transform: rotate(0deg);
+    }
+    70% {
+        bottom: 330px;
+        left: 800px;  
+        transform: rotate(-30deg);
+    }
+    75% {
+        bottom: 330px;
+        left: 810px;  
+        transform: rotate(-90deg);
+    }
+    85% {
+        bottom: 930px;
+        left: 810px;  
+        transform: rotate(-90deg);
+    }
+    90% {
+        bottom: 1030px;
+        left: 810px;  
+        transform: rotate(-90deg);
+    }
+    /*95% {
+        bottom: 1040px;
+        left: 810px;  
+        transform: rotate(-90deg);
+    }*/
     100% {
-        bottom: 1050px;
-        left: 750px;
-        transform: rotate(90deg);
+        bottom: 1060px;
+        left: 810px;
+        transform: rotate(-90deg);
     }
 
 
 }
 #car {
     animation-name: race;
-    animation-duration: 20s;
+    animation-duration: 7s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
-    /*animation-iteration-count: infinite;*/
+    animation-direction: normal;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in;
 }
