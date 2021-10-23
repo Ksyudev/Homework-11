@@ -1,0 +1,17 @@
+#car {
+    position: absolute;
+    bottom: 1050px;
+    left: 800px;
+    transform: rotate(220deg);
+    }
+@keyframes race {
+    0% {
+        bottom: 1050px;
+        left: 800px;
+    }
+}
+#car {
+    animation-name: race;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
