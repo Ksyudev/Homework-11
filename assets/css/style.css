@@ -1,3 +1,8 @@
+body {
+    width: 1000px;
+    height: 1000px;
+}
+
 #car {
     position: absolute;
     bottom: 1060px;
@@ -25,8 +30,23 @@
         left: 100px;
         transform: rotate(150deg);
     }
+    23% {
+        bottom: 1070px;
+        left: 90px;
+        transform: rotate(130deg);
+    }
+    24% {
+        bottom: 1060px;
+        left: 80px;
+        transform: rotate(110deg);
+    }
     25% {
-        bottom: 1080px;
+        bottom: 1050px;
+        left: 70px;
+        transform: rotate(100deg);
+    }
+    26% {
+        bottom: 1020px;
         left: 60px;
         transform: rotate(90deg);
     }
@@ -40,14 +60,29 @@
         left: 60px;
         transform: rotate(90deg);
     }
-    45% {
-        bottom: 330px;
-        left: 60px;
+    43% {
+        bottom: 360px;
+        left: 70px;
         transform: rotate(60deg);
+    }
+    44% {
+        bottom: 350px;
+        left:80px;
+        transform: rotate(40deg);
+    }
+    45% {
+        bottom: 340px;
+        left: 90px;
+        transform: rotate(20deg);
+    }
+    46% {
+        bottom: 330px;
+        left: 100px;
+        transform: rotate(10deg);
     }
     50% {
         bottom: 330px;
-        left: 60px;
+        left: 150px;
         transform: rotate(0deg);
     }
     60% {
@@ -65,8 +100,23 @@
         left: 800px;  
         transform: rotate(-30deg);
     }
+    73% {
+        bottom: 350px;
+        left: 810px;  
+        transform: rotate(-60deg);
+    }
+    74% {
+        bottom: 360px;
+        left: 810px;  
+        transform: rotate(-80deg);
+    }
     75% {
-        bottom: 330px;
+        bottom: 370px;
+        left: 810px;  
+        transform: rotate(-90deg);
+    }
+    76% {
+        bottom: 380px;
         left: 810px;  
         transform: rotate(-90deg);
     }
@@ -85,10 +135,15 @@
         left: 810px;  
         transform: rotate(-90deg);
     }*/
-    100% {
+    99% {
         bottom: 1060px;
         left: 810px;
         transform: rotate(-90deg);
+    }
+    100% {
+        bottom: 1060px;
+        left: 800px;
+        transform: rotate(-120deg);
     }
 
 
@@ -96,9 +151,9 @@
 #car {
     animation-name: race;
     animation-duration: 7s;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     animation-fill-mode: forwards;
     animation-direction: normal;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+    animation-timing-function: linear;
 }
